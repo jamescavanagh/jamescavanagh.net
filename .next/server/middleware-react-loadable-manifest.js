@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/common/Sidebar.jsx -> react-collapsible":{"id":"../components/common/Sidebar.jsx -> react-collapsible","files":["static/chunks/node_modules_react-collapsible_dist_index_js.js"]}}
