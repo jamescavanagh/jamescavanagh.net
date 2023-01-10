@@ -87,18 +87,18 @@ const Sidebar = ({ headerMenu }) => {
                     <ul onClick={() => setShowSidebar(false)}
                       className="sidebar_sub_menu submenu text-black" >
                       <li><Link href="/">Home Designer</Link></li>
-                      <li><Link href="/home-two">Home Agency</Link></li>
-                      <li><Link href="/home-three">Home Freelancer</Link></li>
-                      <li><Link href="/home-four">Home Corporate</Link></li>
-                      <li><Link href="/home-five">Home Studio</Link></li>
-                      <li><Link href="/home-six">Home Creative</Link></li>
-                      <li><Link href="/home-seven">Home Minimal</Link></li>
-                      <li><Link href="/home-eight">Home Minimal Full</Link></li>
-                      <li><Link href="/home-nine">Home Photographer</Link></li>
-                      <li><Link href="/home-ten">Home Photographer 2</Link></li>
-                      <li><Link href="/home-eleven">Home Photographer 3</Link></li>
-                      <li><Link href="/home-twelve">Home Photographer 4</Link></li>
-                      <li><Link href="/home-thirteen">Home Politician</Link></li>
+                      <li>
+                          <Link href="/blog">Blog</Link>
+                      </li>
+                      <li>
+                        <Link href="/cv">CV</Link>
+                      </li>
+                      <li>
+                        <Link href="/about">Blog</Link>
+                      </li>
+                      <li>
+                        <Link href="/contact">Contact</Link>
+                      </li>
                     </ul>
                   </Collapsible>
 
@@ -178,7 +178,7 @@ const Sidebar = ({ headerMenu }) => {
                     <ul onClick={() => setShowSidebar(false)}
                       className="sidebar_sub_menu submenu text-black">
                       <li><Link href="/services">Services Page</Link></li>
-                      <li><Link href="/service-details">Services Deatils</Link></li>
+                      <li><Link href="/service-details">Services Details</Link></li>
                     </ul>
                   </Collapsible>
 
@@ -188,7 +188,7 @@ const Sidebar = ({ headerMenu }) => {
                       className="sidebar_sub_menu submenu text-black" >
                       <li><Link href="/blog">Blog Page</Link></li>
                       <li><Link href="/blog-grid">Blog Grid</Link></li>
-                      <li><Link href="/blog-details">Blog Deatils</Link>
+                      <li><Link href="/blog-details">Blog Details</Link>
                       </li>
                     </ul>
                   </Collapsible>

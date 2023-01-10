@@ -9,14 +9,14 @@ const CtaImages = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="tp-cta-iamge mb-30">
                 <div className="tp-cta-image-wrapper">
-                  <img src="assets/img/about/cta/cta-img-1.jpg" alt="cta-img" />
+                  <img src="assets/img/about/tv-cta-about.jpg" alt="cta-img" />
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="tp-cta-iamge mb-30">
                 <div className="tp-cta-image-wrapper">
-                  <img src="assets/img/about/cta/cta-img-2.jpg" alt="cta-img" />
+                  <img src="assets/img/about/tent-cta-about.jpg" alt="cta-img" />
                 </div>
               </div>
             </div>

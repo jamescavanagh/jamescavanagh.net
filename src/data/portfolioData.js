@@ -5,7 +5,7 @@ const portfolioData = [
         img: 'assets/img/project/2/project-1.jpg',
         img3:'assets/img/project/3/project-1.jpg',
         img4:'assets/img/project/4/project-1.jpg',
-        category:'Signal Analysis',
+        category:'DATA STORIES',
         title: 'AI Classification of Brain Waves',
       },
       {
@@ -38,7 +38,7 @@ const portfolioData = [
         img3:'assets/img/project/3/project-5.jpg',
         img4:'assets/img/project/4/project-5.jpg',
         category:'APP DESIGN',
-        title: 'Why uou love nerox that much'
+        title: 'Why uou love that much'
       },
       {
         id: 6,
@@ -72,13 +72,13 @@ const portfolioData = [
         id: 10,
         img: 'assets/img/project/project-1.jpg',
         category:'WEB DESIGN',
-        title: 'Minimal Product Showcse Design',
+        title: 'Minimal Product Showcase Design',
       },
       {
         id: 11,
         img: 'assets/img/project/project-3.jpg',
         category:'WEBSITE DESIGN',
-        title: 'Minimal Product Showcse Design',
+        title: 'Minimal Product Showcase Design',
       },
       {
         id: 12,
@@ -114,19 +114,19 @@ const portfolioData = [
         id: 17,
         img: 'assets/img/project/project-3.jpg',
         category:'LANDING PAGE',
-        title: 'Barber Machine Branding Deisgn',
+        title: 'Barber Machine Branding Design',
       },
       {
         id: 18,
         img: 'assets/img/project/project-1.jpg',
         category:'BRANDING DESIGN',
-        title: 'Minimal Product Showcse Design',
+        title: 'Minimal Product Showcase Design',
       },
       {
         id: 19,
         img: 'assets/img/project/project-3.jpg',
         category:'BRANDING DESIGN',
-        title: 'Barber Machine Branding Deisgn',
+        title: 'Barber Machine Branding Design',
       },
 
       // portfolio six
@@ -135,7 +135,7 @@ const portfolioData = [
         id:20,
         img:'assets/img/creative/creative-item-2.jpg',
         category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:21,
@@ -173,7 +173,7 @@ const portfolioData = [
         id:26,
         img:'assets/img/creative/creative-item-sm-1.jpg',
         category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:27,
@@ -185,7 +185,7 @@ const portfolioData = [
         id:28,
         img:'assets/img/creative/creative-item-7.jpg',
         category:'BRANDING DESIGN',
-        title:'Shouse Branding & Design'
+        title:'Houses Branding & Design'
       },
       {
         id:29,
@@ -210,7 +210,7 @@ const portfolioData = [
         id:32,
         img:'assets/img/creative/creative-item-sm-4.jpg',
         category:'MOTION DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:33,
@@ -241,7 +241,7 @@ const portfolioData = [
         id:37,
         img:'assets/img/creative/creative-item-sm-1.jpg',
         category:'PRINT DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:38,
@@ -253,7 +253,7 @@ const portfolioData = [
         id:39,
         img:'assets/img/creative/creative-item-6.jpg',
         category:'PRINT DESIGN',
-        title:'Shouse Branding & Design'
+        title:'House Branding & Design'
       },
       {
         id:40,
@@ -272,7 +272,7 @@ const portfolioData = [
         id:42,
         img:'assets/img/creative/creative-item-big-1.jpg',
         category:'3D DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:43,
@@ -306,7 +306,7 @@ const portfolioData = [
         id:47,
         img:'assets/img/creative/grid/tp-creative-1.jpg',
         category:'WEB DESIGN',
-        title:'Unique Trendy Baranding',
+        title:'Unique Trendy Branding',
       },
       {
         id:48,
@@ -336,7 +336,7 @@ const portfolioData = [
         id:52,
         img:'assets/img/creative/grid/tp-creative-6.jpg',
         category:'3D DESIGN',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
       {
         id:53,
@@ -360,13 +360,13 @@ const portfolioData = [
         id:56,
         img:'assets/img/creative/grid/tp-creative-6.jpg',
         category:'WEBSITE DESIGN',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
       {
         id:57,
         img:'assets/img/creative/grid/tp-creative-9.jpg',
         category:'WEBSITE DESIGN',
-        title:'Unique Trendy Baranding',
+        title:'Unique Trendy Branding',
       },
       {
         id:58,
@@ -378,13 +378,13 @@ const portfolioData = [
         id:59,
         img:'assets/img/creative/grid/tp-creative-7.jpg',
         category:'APPS',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
       {
         id:60,
         img:'assets/img/creative/grid/tp-creative-8.jpg',
         category:'APPS',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
       {
         id:61,
@@ -427,7 +427,7 @@ const portfolioData = [
         id:67,
         img:'assets/img/creative/grid/tp-creative-7.jpg',
         category:'BRANDING DESIGN',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
       {
         id:68,
@@ -439,7 +439,7 @@ const portfolioData = [
         id:69,
         img:'assets/img/creative/grid/tp-creative-7.jpg',
         category:'3D DESIGN',
-        title:'Shouse Branding & Design',
+        title:'House Branding & Design',
       },
 
 
@@ -448,7 +448,7 @@ const portfolioData = [
         id:70,
         img:'assets/img/creative/box/tp-creative-1.jpg',
         category:'WEB DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:71,
@@ -478,7 +478,7 @@ const portfolioData = [
         id:75,
         img:'assets/img/creative/box/tp-creative-5.jpg',
         category:'3D DESIGN',
-        title:'Shouse Branding & Design'
+        title:'House Branding & Design'
       },
 
       {
@@ -510,7 +510,7 @@ const portfolioData = [
         id:80,
         img:'assets/img/creative/box/tp-creative-9.jpg',
         category:'WEBSITE DESIGN',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
 
       {
@@ -529,7 +529,7 @@ const portfolioData = [
         id:83,
         img:'assets/img/creative/box/tp-creative-5.jpg',
         category:'APPS',
-        title:'Shouse Branding & Design'
+        title:'House Branding & Design'
       },
       {
         id:84,
@@ -662,7 +662,7 @@ const portfolioData = [
         id:104,
         img:'assets/img/photoshort/photoshot-1.jpg',
         category:'TRAVEL',
-        title:'Unique Trendy Baranding'
+        title:'Unique Trendy Branding'
       },
       {
         id:105,

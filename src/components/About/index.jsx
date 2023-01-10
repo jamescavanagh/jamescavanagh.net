@@ -3,11 +3,10 @@ import BrandArea from '../common/BrandArea';
 import Breadcrumb from '../common/Breadcrumb';
 import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/Header';
-import AboutTestimonial from './AboutTestimonial';
+import AboutQuotes from './AboutQuotes';
 import AboutArea from './AboutArea';
 import AboutCounter from './AboutCounter';
 import CtaImages from './CtaImages';
-import NeroxAwards from './NeroxAwards';
 
 const index = () => {
   return (
@@ -18,8 +17,7 @@ const index = () => {
       <AboutCounter/>
       <CtaImages/>
       <BrandArea brand="-2" about="about-brand" />
-      <AboutTestimonial/>
-      <NeroxAwards/>
+      <AboutQuotes/>
       <FooterTwo/>
     </>
   );

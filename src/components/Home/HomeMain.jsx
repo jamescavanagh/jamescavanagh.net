@@ -1,28 +1,30 @@
 import React from 'react';
-import Footer from '../common/Footers/Footer';
+import BrandArea from '../common/BrandArea';
+import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/Header';
-import AboutArea from './AboutArea';
-import BlogArea from './BlogArea';
-import CtaOneArea from './Cta-1';
-import CtaTwoArea from './Cta-2';
-import HeroArea from './HeroArea';
-import PortfolioArea from './PortfolioArea';
-import ServicesArea from './ServicesArea';
-import TestimonialArea from './TestimonialArea';
+import AboutHome from './AboutHome';
+import BlogHome from './BlogHome';
+import HeroAreaHome from './HeroAreaHome';
+import PortfolioHome from './PortfolioHome';
+import ServicesHome from './ServicesHome';
+//import VideoAreaHome from './VideoAreaHome';
+import HeroAreaTwo from './HeroAreaTwo';
+
 
 const HomeMain = () => {
-	return (
-		<div className='body-bg-3'>
-		  <Header/>
-			<HeroArea/>
-			<AboutArea/>
-			<ServicesArea/>
-			<PortfolioArea/>
-			<CtaTwoArea/>
-			<BlogArea/>
-			<Footer/>
-		</div>
-	);
+  return (
+    <>
+      <Header/>
+      <HeroAreaHome/>
+      <AboutHome/>
+      <ServicesHome/>
+      <HeroAreaTwo/>
+      <PortfolioHome/>
+      <BrandArea homeBrand={true} brand="-2" />
+      <BlogHome/>
+      <FooterTwo/>
+    </>
+  );
 };
 
 export default HomeMain;

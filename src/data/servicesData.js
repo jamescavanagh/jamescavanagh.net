@@ -2,22 +2,26 @@ const servicesData = [
     {
         id:1,
         icon:"flaticon-coding",
-        title:'Data Analysis',
+        title:'Coding',
+        description:'Python, ReactJS Frontend, FastAPI, Pandas, Design Driven Development'
       },
       {
         id:2,
         icon:"flaticon-tools",
-        title:'Data Transformation',
+        title:'Data Storytelling',
+        description:'Data Visualizations and Illustrations, Jupyter Notebooks, Excel Exports'
       },
       {
         id:3,
         icon:"flaticon-curve",
-        title:'Databases',
+        title:'SQL',
+        description:'Comfortable with handcrafted queries, nested joins, and using ORM Libraries'
       },
       {
         id:4,
         icon:"flaticon-promote",
-        title:'IoT Frameworks',
+        title:'IoT Hardware',
+        description:'Transforms low level sensor outputs through data pipelines and trains AI models'
       },
       {
         id:5,
