@@ -19,7 +19,7 @@ const AboutArea = () => {
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-image-2 pb-50">
-                <img src="assets/img/about/tpabout-img.jpg" alt="about-img" />
+                <img src="assets/img/about/Sichuan-Canyon-about.jpg" alt="about-img"/>
               </div>
             </div>
           </div>

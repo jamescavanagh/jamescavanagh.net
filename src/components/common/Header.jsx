@@ -9,7 +9,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
   const { theme, setTheme } = useTheme();
   const { headerSticky } = useSticky();
   const [searchOpen, setSearchOpen] = useState(false);
-  const {setShowSidebar} = useGlobalContext();
+  //const {setShowSidebar} = useGlobalContext();
 
   return (
     <>
@@ -42,20 +42,13 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           <Link href="/">Home</Link>
                         </li>
                         <li>
-                          <Link href="/about">About</Link>
-                        </li>
-                        <li>
-                        <Link href="/projects">CV</Link>
-                        </li>
-                        <li className="has-dropdown">
-                          <Link href="/services">Services</Link>
-                          <ul className="submenu">
-                            <li><Link href="/services">Services Page</Link></li>
-                            <li><Link href="/service-details">Services Deatils</Link></li>
-                          </ul>
-                        </li>
-                        <li>
                           <Link href="/blog">Blog</Link>
+                        </li>
+                        <li>
+                        <Link href="/resume">Resume</Link>
+                        </li>
+                        <li>
+                          <Link href="/about">About</Link>
                         </li>
                         <li>
                           <Link href="/contact">Contact</Link>
@@ -68,16 +61,6 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   !headerEight && <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                     <div className="tp-header-action">
                       <ul>
-                        <li className="d-none d-sm-inline-block">
-                          <button onClick={() => setSearchOpen(true)} href="#" className="search">
-                            <i className="fas fa-search"></i>
-                          </button>
-                        </li>
-                        <li >
-                          <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
-                            <i className="fas fa-bars"></i>
-                          </button>
-                        </li>
                         <li>
                           {/* dark mode button start  */}
                           <div className="mode-switch-wrapper my_switcher setting-option">

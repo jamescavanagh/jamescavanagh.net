@@ -2,7 +2,7 @@ import React from 'react';
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const AboutTestimonial = () => {
+const AboutQuotes = () => {
   const testimonialData = [
     {
       id: 1,
@@ -83,4 +83,4 @@ const AboutTestimonial = () => {
   );
 };
 
-export default AboutTestimonial;
+export default AboutQuotes;
