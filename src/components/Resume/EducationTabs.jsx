@@ -40,12 +40,6 @@ const experienceData = [
     title: 'Software Engineer - Stacker',
     date: '2010 - 2015',
   },
-  {
-    id: 4,
-    img: 'assets/img/experience/experience-img-4.png',
-    title: 'Product Designer at GooDaddy',
-    date: '2015 - Figwire',
-  },
 ]
 
 const EducationTabs = () => {
@@ -78,7 +72,7 @@ const EducationTabs = () => {
               <div className="about-education__wrap">
                 <h4 className="tab-pane-title mb-0"><b>Loyola Marymount University</b> (2012-2016)</h4>
                 <p>Ranked Top 100 US University</p>
-                <h5 className="tab-pane-title mb50"><b> Bachlor of Science: Economics</b></h5>
+                <h5 className="tab-pane-title mb50"><b> Bachelor of Science: Economics</b></h5>
                 <p className="tab-pane-title">Minor: Asia Pacific Studies</p>
                 
                 <div className="row mt-50">
