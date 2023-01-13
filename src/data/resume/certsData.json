@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "icon": "assets/img/experience/edu-icon-1png",
+      "title": "Deep Learning 101 and 201",
+      "summary":"TESTEST"
+    },
+    {
+      "id": 2,
+      "icon": "assets/img/experience/edu-icon-2png",
+      "title": "AWS Cloud Practitioner (In-Progress)",
+      "summary":"TESTTESTETEST"
+    },
+    {
+      "id": 3,
+      "icon": "assets/img/experience/edu-icon-3png",
+      "title": "NVIDIA Partner Training Program",
+      "summary":"TESTTESTTEST"
+    }
+  ]

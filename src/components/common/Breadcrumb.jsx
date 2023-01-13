@@ -11,7 +11,7 @@ const Breadcrumb = ({title,subtitle,url}) => {
               <div className="breadcrumb__content text-center p-relative z-index-1">
                 <h3 className="breadcrumb__title">{title}</h3>
                 <div className="breadcrumb__list">
-                  <span><Link href={url}>Download:</Link></span>
+                  <span><Link href={url}>Home:</Link></span>
                   <span className="PortfolioHomedvdr"><i className="fa-light fa-colon"></i></span>
                   <span className="tp-current"><Link href={url}>{subtitle}</Link></span>
                 </div>

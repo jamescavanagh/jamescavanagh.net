@@ -1,0 +1,15 @@
+{
+    "id":1,
+    "institution":"Loyola Marymount University",
+    "institutionDescription":"Ranked Top 100 US University",
+    "level":"B.Sc.",
+    "major":"Economics",
+    "minor":"Asia Pacific Studies",
+    "time":"2012-2016",
+    "keyPoints":[
+        "Built multivariate linear regression models from scratch, used A/B Testing",
+        "Learned to quantify business problems through micro & macro economics frameworks",
+        "Trained to evaluate data sources for integrity and robustness",
+        "Took courses in Computer Science, Art History, and Chinese Political Economics"
+    ]
+}

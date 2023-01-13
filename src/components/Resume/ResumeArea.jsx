@@ -20,16 +20,13 @@ const ResumeArea = () => {
                       To apply myself to solving difficult problems through unconventional applications of AI,
                       in the broad fields of business, manufacturing, sensors and web analytics.  
                       </a></p></li>
-                    <li><p>Experience Coding:<a href="#"> 3 Years</a></p></li>
                     <li><p>E-mail:<a href="mailto:james@jamescavanagh.com"> james@jamescavanagh.net</a></p></li>
                     <li><p>Whatsapp Phone:<a href="tel:+65 9933 4481">SG +65 9133 4481</a></p></li>
                   </ul>
                 </div>
                 <div className="aboutme-social mt-40">
-                  <a hrExpertiseef="#"><i className="fab fa-facebook-f"></i></a>
-                  <a href="#"><i className="fab fa-instagram"></i></a>
-                  <a href="#"><i className="fab fa-twitter"></i></a>
-                  <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                  <a href="https://github.com/jamescavanagh/"><i className="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/jcav360/"><i className="fab fa-linkedin"></i></a>
                 </div>
               </div>
             </div>

@@ -4,7 +4,6 @@ import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/Header';
 import ResumeArea from './ResumeArea';
 import EducationArea from './EducationArea';
-import GetInTouch from './GetInTouch';
 import ExperienceArea from "./ExperienceArea";
 import ResumeProjectsArea from './ResumeProjectsArea';
 import ResumeSkillsArea from './ResumeSkillsArea';

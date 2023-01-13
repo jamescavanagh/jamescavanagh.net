@@ -1,31 +1,8 @@
 import React from 'react';
 
-const resumeProjectsData = [
-    {
-      id: 1,
-      title: 'Deep Learning 201 - Course',
-      summary: 'An Open Source Course on AI meant for business professionals',
-      keyPoints: [
-        "Summary1",
-        "Summary2"
-      ]
-    },
-    {
-      id: 2,
-      title: 'Brain Wave Project',
-      summary: 'Prototyping, Embedded Devices, Sensors, China',
-      keyPoints:[
-        "Used pandas, sklearn & scipy to transform and interpret raw electrode signals as images to train ResNet models",
-        "Reduced loss by 29% and error rate by %15 over others through better signal-processing and transformation",
-        "Received a Kaggle silver medal through data storytelling in the jupyter notebook format",
-        "Rapidly researched and understood how to solve the problem that electrode data presents",
-        ]
-    },
+import resumeProjectsData from "../../data/resume/projectsData.json"
 
-  ]
-  
-
-const ExperienceArea = () => {
+const ResumeProjectsArea = () => {
     return (
       <>
           <div className="about-skill__wrap">
@@ -56,4 +33,4 @@ const ExperienceArea = () => {
     );
 };
 
-export default ExperienceArea;
+export default ResumeProjectsArea;
