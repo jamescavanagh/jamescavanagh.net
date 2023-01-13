@@ -3,17 +3,21 @@ import Breadcrumb from '../common/Breadcrumb';
 import FooterTwo from '../common/Footers/FooterTwo';
 import Header from '../common/Header';
 import ResumeArea from './ResumeArea';
-import ResumeTabs from './ResumeTabs';
+import EducationArea from './EducationArea';
 import GetInTouch from './GetInTouch';
+import ExperienceArea from "./ExperienceArea";
+import ResumeProjectsArea from './ResumeProjectsArea';
+import ResumeSkillsArea from './ResumeSkillsArea';
 
 const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="RESUME" subtitle="PDF format" url="/resume-pdf" />
       <ResumeArea/>
-      <ResumeTabs/>
-      <GetInTouch/>
+      <ExperienceArea/>
+      <ResumeProjectsArea/>
+      <EducationArea/>
+      <ResumeSkillsArea/>
       <FooterTwo/>
     </>
   );
