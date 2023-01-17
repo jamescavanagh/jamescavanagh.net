@@ -7,7 +7,7 @@ const blogData = [
         img4:'assets/img/blog/blog-1.jpg',
         bigImg:'assets/img/blog/blog-big-1.jpg',
         gridImg:'assets/img/blog/grid/blog-1.jpg',
-        title: 'What is the Main Challage for a Design Agency.',
+        title: 'What is the Main Challenge for a Design Agency.',
         date: '23 January 2022',
         desc:'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
         class:'postbox__thumb w-img mb-30',
@@ -20,7 +20,7 @@ const blogData = [
         img2:'assets/img/blog/2/blog-2.jpg',
         img3:'assets/img/blog/3/blog-6.jpg',
         img4:'assets/img/blog/blog-2.jpg',
-        bigImg:'assets/img/blog/blog-big-2.jpg',
+        bigImg:'assets/img/blog/blabout-me.jsxog-big-2.jpg',
         gridImg:'assets/img/blog/grid/blog-2.jpg',
         title: 'Business blogging enables you to put forward ideas.',
         date: '25 January 2022',
@@ -60,7 +60,7 @@ const blogData = [
         img: 'assets/img/blog/1/blog-4.jpg',
         img3:'assets/img/blog/3/blog-5.jpg',
         gridImg:'assets/img/blog/grid/blog-5.jpg',
-        title: 'What is the Main Challage for a Design Agency.',
+        title: 'What is the Main Challenges for a Design Agency.',
         date: '30 January 2022',
         category:'APPS DESIGN'
       },
@@ -76,7 +76,7 @@ const blogData = [
       {
         id: 7,
         img: 'assets/img/blog/5/blog-2.jpg',
-        title:<>What is the Main Challage for <br/> a Design Agency.</>,
+        title:<>What is the Main Challenges for <br/> a Design Agency.</>,
         date: '20 February 2022'
       },
       {
@@ -97,7 +97,7 @@ const blogData = [
         id:10,
         img:'assets/img/blog/4/blog-1.jpg',
         date:'18 March 2022',
-        title:'What is the Main Challage for a Design.'
+        title:'What is the Main Challenges for a Design.'
       },
       {
         id:11,
@@ -121,7 +121,7 @@ const blogData = [
         id:14,
         img:'assets/img/blog/4/blog-1.jpg',
         date:'18 March 2022',
-        title:'What is the Main Challage for a Design.'
+        title:'What is the Main Challenges for a Design.'
       },
 ]
 export default blogData;

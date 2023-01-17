@@ -70,7 +70,7 @@ const PortfolioHome = () => {
                         </Link>
                       </div>
                       <div className="tpproject__content text-center">
-                        <span className="catagory mb-20">{item.category}</span>
+                        <span className="category mb-20">{item.category}</span>
                         <h5 className="tpproject__title">
                           <Link href={`/portfolio-details/${item.id}`}>
                             <a>{item.title}</a>
@@ -96,7 +96,7 @@ const PortfolioHome = () => {
             <div className="col-xl-12">
               <div className="tpproject-button mt-20 text-center">
                 <Link href='/portfolio-details'>
-                  <a className="tp-solid-btn">View More Project</a>
+                  <a className="tp-solid-btn">View More Projects</a>
                 </Link>
               </div>
             </div>

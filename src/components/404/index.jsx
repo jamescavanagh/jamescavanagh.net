@@ -8,7 +8,7 @@ const index = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="PAGE NOT FOUND" subtitle="404" />
+      <Breadcrumb title="PAGE NOT FOUND" subtitle="404" url="/home" />
       
       <div className="error-area pt-100 pb-140">
         <div className="container">

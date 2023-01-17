@@ -660,7 +660,7 @@ const portfolioData = [
       // portfolio ten
       {
         id:104,
-        img:'assets/img/photoshort/photoshot-1.jpg',
+        img:'assets/img/',
         category:'TRAVEL',
         title:'Unique Trendy Branding'
       },
@@ -822,7 +822,7 @@ const portfolioData = [
         id:130,
         img:'assets/img/furniture/furniture-1.jpg',
         category:'FURNITURE',
-        title:'Mordern Photoshot for Furniture'
+        title:'Modern Photoshoot for Furniture'
       },
       {
         id:131,
@@ -846,7 +846,7 @@ const portfolioData = [
         id:134,
         img:'assets/img/furniture/furniture-5.jpg',
         category:'FURNITURE',
-        title:'Mordern Photoshot for Furniture'
+        title:'Modern Photoshoot for Furniture'
       },
 
       // portfolio thirteen data

@@ -66,7 +66,7 @@ const servicesData = [
       {
         id:13,
         icon:"flaticon-seo",
-        title:<>Policy <span>Incriment</span></>
+        title:<>Policy <span>Increment</span></>
       },
 
       // home thirteen data 

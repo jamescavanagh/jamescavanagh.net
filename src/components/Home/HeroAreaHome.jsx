@@ -11,7 +11,7 @@ const HeroAreaHome = () => {
               <div className="tp-minimal__design pt-100 pb-100">
                 <div className="tp-minimal__design-wrapper">
                   <h2 className="tp-minimal__design-title">James <br /> <span>Cav</span></h2>
-                  <p className="tpds-text">Sharing my life, interests, and insights with<br /> the global villiage.</p>
+                  <p className="tpds-text">Sharing my life, interests, and insights with<br /> the global village.</p>
                   <div className="tp-minimal__button mt-35">
                     <Link href="/about-me">
                       <a className="tp-solid-btn">Read Blog</a>

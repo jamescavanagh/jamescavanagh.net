@@ -10,9 +10,9 @@ const AboutHome = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="tp-minimal__design tp-minimal__design-2">
                 <div className="tp-minimal__design-wrapper tp-minimal__design-wrapper-2">
-                  <h3 className="tpds-title mb-50">I am driven by  <br /> curiousity <span> to seek the truth.</span></h3>
+                  <h3 className="tpds-title mb-50">I am driven by  <br /> curiosity <span> to seek the truth.</span></h3>
                   <p className="tpds-text-2 mb-50">"Information is that which reduces uncertainty, everything else is noise." -Claude Shannon</p>
-                  <p>I excel in offering new perspectives that come from combinding and integrating technologies to see problems in a new way.</p>
+                  <p>I excel in offering new perspectives that come from combining and integrating technologies to see problems in a new way.</p>
 
                   <div className="tp-minimal__button mt-55">
                     <Link href="/about-me">

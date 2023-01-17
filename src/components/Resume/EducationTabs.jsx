@@ -21,26 +21,6 @@ const certificationData = [
   },
 ]
 
-const experienceData = [
-  {
-    id: 1,
-    img: 'assets/img/experience/experience-img-1.png',
-    title: 'Technical Product Manager - UnpackAI',
-    date: '2022  - 2008',
-  },
-  {
-    id: 2,
-    img: 'assets/img/experience/experience-img-2.png',
-    title: 'Front-end Engineer - TheFlow',
-    date: '2008 - 2010',
-  },
-  {
-    id: 3,
-    img: 'assets/img/experience/experience-img-3.png',
-    title: 'Software Engineer - Stacker',
-    date: '2010 - 2015',
-  },
-]
 
 const EducationTabs = () => {
   return (

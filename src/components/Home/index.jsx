@@ -11,7 +11,7 @@ import ServicesHome from './ServicesHome';
 import HeroAreaTwo from './HeroAreaTwo';
 
 
-const HomeMain = () => {
+const index = () => {
   return (
     <>
       <Header/>
@@ -27,4 +27,4 @@ const HomeMain = () => {
   );
 };
 
-export default HomeMain;
+export default index;
