@@ -19,15 +19,19 @@ const ExperienceArea = () => {
                         </div>
                         <h5 className="experience-title"><a>{item.title}</a></h5>
                         <span className="exp-duration mb-15">{item.date}</span>
-                        {item.keyPoints.map((bulletPoint, index) => {
-                            return <span key={index}>
-                                <ul>
-                                  <h6>
-                                    <b>-{bulletPoint}</b>
-                                  </h6>
-                                </ul>
-                              </span>
-                        })}
+                        <div className="aboutme-feature-list">
+                          {item.keyPoints.map((bulletPoint, index) => {
+                              return <div>
+                              <span key={index}>
+                                  <ul>
+                                    <p className='experience-duration'>
+                                      <b>-{bulletPoint}</b>
+                                    </p>
+                                  </ul>
+                                </span>
+                              </div>
+                          })}
+                      </div>
                     </div>
                   </div>
                 ))
