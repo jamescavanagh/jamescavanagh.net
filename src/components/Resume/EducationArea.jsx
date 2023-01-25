@@ -8,28 +8,35 @@ const EducationArea = () => {
     return (
       <>
           <div className="about-education__wrap">
-            <h2 className='mb-20 ml-40'><b>Education</b></h2>
             <div className="row align-items-center">
-                <div className="col-xl-9 ml-40" >
-            <h3 className="tab-pane-title mb-0"><b>{degreeData.institution}</b> ({degreeData.time})</h3>
+              <div className="col-xl-9 ml-40" >
+                <h1 className='tab-pane-title mb-40 mt-40'>
+                  <b>Education</b>
+                </h1>
+                <h4 className="tab-pane-title mb-0">
+                  <b>{degreeData.institution}</b> ({degreeData.time})
+                </h4>
             <p>{degreeData.institutionDescription}</p>
           <div className="about-education">
             <div>
-              <h5 className="tab-pane-title mb20"><b>{degreeData.level} {degreeData.major}</b></h5>
-              <p className="mb50">Minor: {degreeData.minor}</p>
+              <h5 className="tab-pane-title mb-5"><b>{degreeData.level} {degreeData.major}</b></h5>
+              <p className="mb-20">Minor: {degreeData.minor}</p>
             </div>
             <div>
+              <div className='aboutme-feature-list mb-0'>
                 {
                 degreeData.keyPoints.map(item => (
-                    <div>
+                      <span> 
                         <ul>
-                            <h6>-{item}</h6>
+                            <p className='experience-duration mb-0'>
+                              <b>-{item} </b>
+                            </p>
                         </ul>
-                    </div>
+                      </span>
                 ))
                 }
+              </div>
           </div>
-
           </div>
 
 

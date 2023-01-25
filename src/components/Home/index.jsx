@@ -21,7 +21,6 @@ const index = () => {
       <HeroAreaTwo/>
       <PortfolioHome/>
       <BrandArea homeBrand={true} brand="-2" />
-      <BlogHome/>
       <FooterTwo/>
     </>
   );
