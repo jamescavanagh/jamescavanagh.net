@@ -16,7 +16,7 @@ const EducationArea = () => {
           <div className="about-education">
             <div>
               <h5 className="tab-pane-title mb20"><b>{degreeData.level} {degreeData.major}</b></h5>
-              <p className=" mb50">Minor: {degreeData.minor}</p>
+              <p className="mb50">Minor: {degreeData.minor}</p>
             </div>
             <div>
                 {
