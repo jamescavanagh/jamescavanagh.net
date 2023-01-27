@@ -5,8 +5,9 @@
       "link": "https://www.jamescavanagh.net",
       "summary": "An Open Source Course on AI targeted for business professionals",
       "keyPoints": [
-        "Summary1",
-        "Summary2"
+        "Designed a course on NLP, Computer Vision, and Tabular ML, through collaborating with ML Engineers"
+        ,"Emphasized concepts such as Tensors, Embeddings, and Neural Networks as thresholds to understand AI"
+        ,"Taught Students ML workflow skills in EDA, data preprocessing a nd transformation, then training models"
       ]
     },
     {
@@ -20,5 +21,18 @@
         "Received a Kaggle silver medal through data storytelling in the jupyter notebook format",
         "Rapidly researched and understood how to solve the problem that electrode data presents"
         ]
-    }
+    },
+    {
+    "id": 3,
+    "title": "Chinese Relational Flashcard Maker",
+    "link": "https://www.jamescavanagh.net",
+    "summary": "A passion project",
+    "keyPoints":[
+      "Collecting and normalizing data to design a SQL Database"
+      ,"Using Design Driven Development to code a completely different approach to learning Chinese"
+      ,"Application will be served with a stack of FastAPI, SQL, and React"
+      ,"Will export high quality flashcards based on relationships between characters"
+      ]
+  }
+
 ]
