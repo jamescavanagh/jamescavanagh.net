@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image'
+import aboutData from "../../data/aboutData.json"
 
 const AboutArea = () => {
   return (
@@ -8,15 +10,21 @@ const AboutArea = () => {
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-content-2 pb-50">
-                <h3 className="tpabout-xd-title mb-15"><b>My</b> LIFE</h3>
-                <span className="tpabout-xs-title mb-40">LORUMIPSUM TITILEUS</span>
-                <p className="tpab-text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 className="tpabout-xd-title mb-15"> {aboutData.title} </h3>
+                <span className="tpabout-xs-title mb-40">{aboutData.subtitle}</span>
+                { 
+                  aboutData.content.map(paragraph => {
+                  return <div>  
+                    <p className="tpab-text mb-30">{paragraph}</p>
+                  </div>
+                })}
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-image-2 pb-50">
-                <img src="assets/img/about/Sichuan-Canyon-about.jpg" alt="about-img"/>
+                <Image src={aboutData.images.aboutMain}
+                width={780}
+                height={1000} />
               </div>
             </div>
           </div>

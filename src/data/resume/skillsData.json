@@ -5,39 +5,67 @@
         "skillName":"Python"
     },
     {
-        "id":1,
+        "id":2,
         "skillName":"Data Analysis"
     },
     {
-        "id":1,
+        "id":3,
         "skillName":"Data Visualization"
     },
     {
-        "id":1,
+        "id":4,
         "skillName":"Presentation"
     },
     {
-        "id":1,
+        "id":5,
         "skillName":"ReactJS"
     },
     {
-        "id":1,
+        "id":6,
         "skillName":"Linux"
     },
     {
-        "id":1,
+        "id":7,
         "skillName":"Vim"
     },
     {
-        "id":1,
+        "id":8,
         "skillName":"Git"
     },
     {
-        "id":1,
+        "id":9,
+        "skillName":"Docker"
+    },
+    {
+        "id":16,
+        "skillName":"Network Configuration"
+    },
+    {
+        "id":10,
         "skillName":"Hardware Prototyping"
     },
     {
-        "id":1,
+        "id":11,
         "skillName":"IoT Systems Integration"
+    },
+    {
+        "id":15,
+        "skillName":"Mandarin"
+    },
+    {
+        "id":12,
+        "skillName":"Rapid Learning"
+    },
+    {
+        "id":13,
+        "skillName":"Project Planning"
+    },
+    {
+        "id":14,
+        "skillName":"Paper Implementation"
+    },
+    {
+        "id":15,
+        "skillName":"Wilderness Survival"
     }
 ]

@@ -1,0 +1,15 @@
+{
+ "id":1,
+ "type":"text",
+ "title":"My Life",
+ "subtitle":"Wanderings, Obsessions, and Hopes",
+ "content": [
+    "I was born in 1994 near Los Angeles CA, in beautiful Pasadena. I grew up around swimming pools, hiking trails, and the eccentric things you see growing up in California.",
+    "I went to University at LMU, where I studied Economics and Asia Pacific Studies. Despite these very traditional studies, during summers, went out and saw the world. I studied resilience by camping in a national forest for 6 weeks, and learned empathy and Theory of Mind by hitchhiking across 10,000km of America with only a backpack. It gave me an education in humanity, and a love for the Earth that I carry with me to this day.",
+    "My wanderings ended in the Chinese metropolis of Shenzhen, which I called my home in my mid-twenties. There, I discovered the electronics markets, which ignited my love of electronics and machines. I finally knew what I wanted to do with my life. There, as an English teacher, I taught myself programming and circuits by prototyping electronics. I loved being in the trenches arguing, negotiating, and explaining myself in Chinese, while at the same time, learning an appeciation for details and process in the lab."
+    ,"Now, I am a data analyst and digital nomad working with AI, business, and hardware"
+],
+ "images": {
+    "aboutMain":"/assets/img/about/Sichuan-Canyon-about.jpg"
+ }
+}

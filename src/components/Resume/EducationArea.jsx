@@ -37,25 +37,7 @@ const EducationArea = () => {
                 }
               </div>
           </div>
-          </div>
-
-
-          {/* Start Certification Area */}
-          
-            <div className="row mt-50">
-                {
-                certsData.map(item => (
-                    <div key={item.id} className="col-xl-3 col-lg-3 col-md-6">
-                    <div className="edu-exp-item mb-30">
-                        <div className="edu-exp-image mb-10">
-                          <img src={item.icon} alt="edu-exp-icon" />
-                        </div>
-                        <h5 className="edu-exp-title mb-15"><a>{item.title}</a></h5>
-                        <p>{item.summary}</p>
-                    </div>
-                  </div>
-                ))
-              }
+          <hr/>
           </div>
         </div>
       </div>
@@ -64,4 +46,4 @@ const EducationArea = () => {
   );
 };
 
-export default EducationArea;
+export default EducationArea
