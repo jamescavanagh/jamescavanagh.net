@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { CircularProgressbar } from "react-circular-progressbar";
 
 import awardData from '../../data/awardsData';
 
@@ -12,7 +11,7 @@ const certificationData = [
   {
     id: 2,
     icon: 'assets/img/experience/edu-icon-2.png',
-    title: 'AWS Cloud Practitioner (In-Progress)'
+    title: 'AWS Certified Cloud Practitioner'
   },
   {
     id: 3,

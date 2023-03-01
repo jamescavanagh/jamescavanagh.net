@@ -7,6 +7,7 @@ const portfolioData = [
         img4:'assets/img/project/4/project-1.jpg',
         category:'DATA STORIES',
         title: 'AI Classification of Brain Waves',
+        url:'https://www.kaggle.com/code/xunderscorefactorj/does-what-happen-in-vegas-really-stay-in-vegas'
       },
       {
         id: 2,
@@ -14,15 +15,17 @@ const portfolioData = [
         img3:'assets/img/project/3/project-2.jpg',
         img4:'assets/img/project/4/project-2.jpg',
         category:'AI Course',
-        title: 'Ai Literacy Course Taught for Non-Tech Professionals'
+        title: 'Ai Literacy Course Taught for Non-Tech Professionals',
+        url:'https://github.com/unpackAI/DL201'
       },
       {
         id: 3,
         img: 'assets/img/project/2/project-3.jpg',
         img3:'assets/img/project/3/project-3.jpg',
         img4:'assets/img/project/4/project-3.jpg',
-        category:'IoT Sensors',
-        title: 'PoC Prototype of 4G asset digital twin modeling'
+        category:'Web App',
+        title: 'Website Source Code',
+        url:'https://github.com/jamescavanagh/jamescavanagh.net'
       },
       {
         id: 4,

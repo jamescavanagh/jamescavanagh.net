@@ -16,7 +16,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
           </div>
           <div className="col-lg-12 col-md-12">
             <div className="widget">
-              <h6 className="sidebar-title">Popular Feeds</h6>
+              <h6 className="sidebar-title">Selected Articles</h6>
               <div className="n-sidebar-feed">
                 <ul>
                   <li>
@@ -32,7 +32,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                       <span className="feed-date">
                         <i className="fal fa-calendar-alt"></i> 20 March 2022
                       </span>
-                      <h6><Link href="/blog-details">Don’t Underestimate The Software Administration UX</Link></h6>
+                      <h6><Link href="/blog-details">AI Brain Waves</Link></h6>
                     </div>
                   </li>
                   <li>
@@ -48,7 +48,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                       <span className="feed-date">
                         <i className="fal fa-calendar-alt"></i> 24th March 2022
                       </span>
-                      <h6><Link href="/blog-details">Better Product Pages Turn Visitors</Link>
+                      <h6><Link href="/blog-details">Teach to Learn, Learn to Teach</Link>
                       </h6>
                     </div>
                   </li>
@@ -65,7 +65,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                       <span className="feed-date">
                         <i className="fal fa-calendar-alt"></i> 20 March 2022
                       </span>
-                      <h6><Link href="/blog-details">Orchestrating Complexity With Web Animations</Link></h6>
+                      <h6><Link href="/blog-details">Tibet 202, Monestary</Link></h6>
                     </div>
                   </li>
                   <li>
@@ -81,7 +81,7 @@ const BlogRightSide = ({ dynamicRoute }) => {
                       <span className="feed-date">
                         <i className="fal fa-calendar-alt"></i> 24th March 2022
                       </span>
-                      <h6><Link href="/blog-details">The Rise Of Design Thinking As A Problem </Link>
+                      <h6><Link href="/blog-details">Short Stories </Link>
                       </h6>
                     </div>
                   </li>
@@ -150,13 +150,13 @@ const BlogRightSide = ({ dynamicRoute }) => {
             <div className="widget">
               <h6 className="sidebar-title">Popular Tag</h6>
               <div className="stags">
-                <a className="single-tag" href="#">landing </a>
-                <a className="single-tag" href="#">Charity</a>
-                <a className="single-tag" href="#">apps</a>
-                <a className="single-tag" href="#">Education build</a>
+                <a className="single-tag" href="#">Tech</a>
+                <a className="single-tag" href="#">Travel</a>
+                <a className="single-tag" href="#">Stories</a>
+                <a className="single-tag" href="#">SketchNotes</a>
                 <a className="single-tag" href="#">data</a>
-                <a className="single-tag" href="#">book</a>
-                <a className="single-tag" href="#">Design</a>
+                <a className="single-tag" href="#">Books</a>
+                <a className="single-tag" href="#">Camping</a>
                 <a className="single-tag" href="#">website</a>
               </div>
             </div>

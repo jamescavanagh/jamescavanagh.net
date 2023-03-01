@@ -1,8 +1,6 @@
 import React from 'react';
 
-import certsData from '../../data/resume/certsData.json';
 import degreeData from "../../data/resume/degreeData.json"
-
 
 const EducationArea = () => {
     return (

@@ -62,8 +62,7 @@ const PortfolioHome = () => {
                   className="col-xl-6 col-lg-6 c1 c2 c5">
                   <div className="tpproject tpproject-5 mb-30">
                     <div className="tpproject__thumb">
-                      <Link href={`/portfolio-details/${item.id}`}>
-
+                      <Link href={`${item.url}`}>
                         <img src={item.img} alt="project" />
 
                       </Link>
@@ -71,12 +70,12 @@ const PortfolioHome = () => {
                     <div className="tpproject__content text-center">
                       <span className="category mb-20">{item.category}</span>
                       <h5 className="tpproject__title">
-                        <Link href={`/portfolio-details/${item.id}`}>
+                        <Link href={`${item.url}`}>
                           {item.title}
                         </Link>
                       </h5>
                       <div className="tpproject__btn mt-20">
-                        <Link href={`/portfolio-details/${item.id}`}>
+                        <Link href={`${item.url}`}>
 
                           <i className="flaticon-right-arrow-1"></i>
 

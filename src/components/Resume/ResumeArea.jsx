@@ -11,7 +11,7 @@ const ResumeArea = () => {
               <div className="aboutme-wrapper mb-20">
                 <div className="aboutme-content">
                   <h3 className="tpabout-xd-title mb-50"><b>James</b> Cavanagh</h3>
-                  <span className="aboutme-sub-title">Data Analyst / ML Engineer</span>
+                  <span className="aboutme-sub-title">ML/AI Data Analyst</span>
                 </div>
                 <div className="aboutme-feature-list mt-25">
                   <ul>

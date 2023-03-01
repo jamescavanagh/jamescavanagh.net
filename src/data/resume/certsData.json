@@ -1,15 +1,11 @@
 [
     {
-      "id": 1,
-      "icon": "assets/img/experience/edu-icon-1png",
-      "title": "Deep Learning 101 and 201",
-      "summary":"TESTEST"
     },
     {
-      "id": 2,
+      "id": 1,
       "icon": "assets/img/experience/edu-icon-2png",
       "title": "AWS Cloud Practitioner (In-Progress)",
-      "summary":"TESTTESTETEST"
+      "summary":""
     },
     {
       "id": 3,

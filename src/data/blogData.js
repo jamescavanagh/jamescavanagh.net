@@ -7,11 +7,11 @@ const blogData = [
         img4:'assets/img/blog/blog-1.jpg',
         bigImg:'assets/img/blog/blog-big-1.jpg',
         gridImg:'assets/img/blog/grid/blog-1.jpg',
-        title: 'What is the Main Challenge for a Design Agency.',
+        title: 'Down the Rabbit Hole of Electronics in Shenzhen, China.',
         date: '23 January 2022',
         desc:'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
         class:'postbox__thumb w-img mb-30',
-        blogAuthor:'Naim',
+        blogAuthor:'James Cavanagh',
         category:'UX/UI DESIGN'
       },
       {
@@ -22,12 +22,12 @@ const blogData = [
         img4:'assets/img/blog/blog-2.jpg',
         bigImg:'assets/img/blog/blabout-me.jsxog-big-2.jpg',
         gridImg:'assets/img/blog/grid/blog-2.jpg',
-        title: 'Business blogging enables you to put forward ideas.',
+        title: 'Resilience: To Start a Fire',
         date: '25 January 2022',
         desc:'Modern HMIs are transforming the way we interact with our vehicles. A car becomes a gadget that we use in a similar way as we use our phones. Users expect a lot of HMI, they even evaluate car experience based on the experience they have with HMI. In this article...',
         class:'postbox__thumb postbox__video w-img p-relative mb-30',
         video:true,
-        blogAuthor:'Shahnewaj',
+        blogAuthor:'James Cavanagh',
         category:'WEB DESIGN'
       },
       {
@@ -38,12 +38,12 @@ const blogData = [
         img4:'assets/img/blog/blog-3.jpg',
         bigImg:'assets/img/blog/blog-big-4.jpg',
         gridImg:'assets/img/blog/grid/blog-3.jpg',
-        title: 'What is important is that it be useful.',
+        title: '',
         date: '27 January 2022',
         desc:'This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.',
         class:'postbox__thumb postbox__slider tp-arrow-style w-img p-relative mb-30',
         slider:true,
-        blogAuthor:'Smith',
+        blogAuthor:'James Cavanagh',
         category:'DIGITAL MARKETING'
       },
       {

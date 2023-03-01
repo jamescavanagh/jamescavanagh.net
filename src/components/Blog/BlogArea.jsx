@@ -82,7 +82,7 @@ const BlogArea = () => {
                       <div className="postbox__meta">
                         <span><a href="#"><i className="far fa-user"></i> {item.blogAuthor}</a></span>
                         <span><i className="far fa-calendar-check"></i> {item.date} </span>
-                        <span><a href="#"><i className="fal fa-comments"></i> 02 Comments</a></span>
+                        <span><a href="#"><i className="fal fa-comments"></i> Comments</a></span>
                       </div>
                       <h3 className="postbox__title">
                         <Link href={`/blog-details/${item.id}`}>
@@ -90,7 +90,7 @@ const BlogArea = () => {
                         </Link>
                       </h3>
                       <div className="postbox__text">
-                        <p>This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience. </p>
+                        <p>{item.summary}</p>
                       </div>
                       <div className="postbox__read-more">
                         <Link href={`/blog-details/${item.id}`} className="tp-solid-btn">read more</Link>
